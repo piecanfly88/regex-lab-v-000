@@ -8,7 +8,7 @@ end
 
 def words_five_letters_
   long(text)
-  text.scan(/.{3}\w*\s\b/i)
+  text.scan(/.{3}\w/i)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
